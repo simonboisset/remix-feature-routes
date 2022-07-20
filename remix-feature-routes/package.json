@@ -1,6 +1,6 @@
 {
   "name": "remix-feature-routes",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Package for generating routes using feature convention",
   "main": "dist/index.js",
   "files": [
