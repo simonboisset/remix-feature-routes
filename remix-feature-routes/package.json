@@ -1,0 +1,43 @@
+{
+  "name": "remix-feature-routes",
+  "version": "0.0.1",
+  "description": "Package for generating routes using feature convention",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && node esbuild.js && tsc --project tsconfig.build.json"
+  },
+  "keywords": [
+    "remix",
+    "routes",
+    "convention",
+    "feature"
+  ],
+  "author": {
+    "name": "Simon",
+    "email": "simonboisset.dev@gmail.com",
+    "url": "https://simonboisset.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simonboisset/remix-feature-routes.git"
+  },
+  "license": "MIT",
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2,
+    "printWidth": 120
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.218",
+    "@swc/jest": "^0.2.22",
+    "@types/jest": "^28.1.6",
+    "esbuild": "^0.14.49",
+    "esbuild-node-externals": "^1.4.1",
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}

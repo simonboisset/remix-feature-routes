@@ -1,0 +1,62 @@
+Arguments: 
+  /Users/simon/.nvm/versions/node/v16.10.0/bin/node /Users/simon/.yarn/bin/yarn.js
+
+PATH: 
+  /Users/simon/Library/pnpm:/Users/simon/.yarn/bin:/Users/simon/.config/yarn/global/node_modules/.bin:/Users/simon/.nvm/versions/node/v16.10.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/simon/Library/pnpm:/Users/simon/.yarn/bin:/Users/simon/.config/yarn/global/node_modules/.bin:/Users/simon/.nvm/versions/node/v16.10.0/bin:/Users/simon/.cargo/bin:/Users/simon/Library/Android/sdk/emulator:/Users/simon/Library/Android/sdk/tools:/Users/simon/Library/Android/sdk/tools/bin:/Users/simon/Library/Android/sdk/platform-tools:/Users/simon/Library/Android/sdk/emulator:/Users/simon/Library/Android/sdk/tools:/Users/simon/Library/Android/sdk/tools/bin:/Users/simon/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/remix-feature-routes: Not found
+      at Request.params.callback [as _callback] (/Users/simon/.yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/simon/.yarn/lib/cli.js:140749:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/Users/simon/.yarn/lib/cli.js:141721:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/Users/simon/.yarn/lib/cli.js:141643:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "private": true,
+    "sideEffects": false,
+    "scripts": {
+      "dev": "remix dev",
+      "start": "remix-serve build"
+    },
+    "dependencies": {
+      "@remix-run/node": "^1.6.5",
+      "@remix-run/react": "^1.6.5",
+      "@remix-run/serve": "^1.6.5",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+      "@remix-run/dev": "^1.6.5",
+      "@remix-run/eslint-config": "^1.6.5",
+      "@types/react": "^17.0.45",
+      "@types/react-dom": "^17.0.17",
+      "eslint": "^8.15.0",
+      "remix-feature-routes": "*",
+      "typescript": "^4.7.4"
+    },
+    "engines": {
+      "node": ">=14"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
