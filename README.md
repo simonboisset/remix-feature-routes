@@ -40,7 +40,7 @@ module.exports = {
 - If a folder is defined as a route his index file will be defined as the route file of the folder
 - Other files are skipped
 
-### Exemple
+### Example
 
 ```
 routes/
