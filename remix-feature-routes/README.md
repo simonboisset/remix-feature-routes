@@ -48,7 +48,7 @@ routes/
         components/
             LogoutButton.tsx
             LoginForm.tsx
-        route/
+        routes/
             index.tsx
             join.tsx
             login.tsx
