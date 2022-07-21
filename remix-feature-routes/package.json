@@ -22,8 +22,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/simonboisset/remix-feature-routes.git"
+    "url": "https://github.com/simonboisset/remix-feature-routes",
+    "directory": "remix-feature-routes"
   },
+  "bugs": {
+    "url": "https://github.com/simonboisset/remix-feature-routes/issues"
+  },
+  "homepage": "https://github.com/simonboisset/remix-feature-routes",
   "license": "MIT",
   "prettier": {
     "singleQuote": true,

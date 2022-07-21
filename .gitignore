@@ -23,3 +23,5 @@ yarn-error.log*
 .env.production.local
 
 dist
+build
+.cache
