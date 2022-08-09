@@ -15,7 +15,7 @@ yarn add -D remix-feature-routes
 Update your `remix.config.js`.
 
 ```ts
-const { defineFeatureRoutes } = require('remix-feature-routes/dist');
+const { defineFeatureRoutes } = require('remix-feature-routes');
 module.exports = {
   ignoredRouteFiles: ['**/*'],
   routes: async (defineRoutes) => {
